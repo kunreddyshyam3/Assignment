@@ -10,5 +10,5 @@ This project provides a set of bash scripts to automate the setup and management
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/k8s-automation.git
+   git clone https://github.com/kunreddyshyam3/k8s-automation.git
    cd k8s-automation
