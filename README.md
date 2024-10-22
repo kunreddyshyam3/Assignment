@@ -11,9 +11,9 @@ git clone https://github.com/kunreddyshyam3/k8s-automation.git
 cd k8s-automation
 
 ### 2. Make scripts executable:
-```bash
+
 chmod +x main.sh scripts/*.sh
-'''
+
 ## Usage
 
 ### Run the complete automation:
