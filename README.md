@@ -21,10 +21,14 @@ This script will run all the individual scripts sequentially to set up the envir
 This script installs Docker, kubectl, and Minikube, sets up necessary system configurations, and requires a logout/login afterward for group changes.
 #### Setup Kubernetes Cluster:
 ./scripts/setup-cluster.sh
+![image](https://github.com/user-attachments/assets/6c1609e3-03d2-4555-bf89-13c10d17afe5)
 
 This script initializes a Minikube cluster, verifies its status, and enables required addons.
 #### Install KEDA:
 ./scripts/install-keda.sh
+
+![image](https://github.com/user-attachments/assets/e28bcdc8-e107-4170-9691-d555d4213d26)
+
 
 This script installs the Helm package manager, deploys KEDA using Helm, and verifies its installation.
 #### Create Deployment:
