@@ -36,7 +36,9 @@ This script installs the Helm package manager, deploys KEDA using Helm, and veri
 
 This script creates Kubernetes resources from the provided YAML file, sets up autoscaling with KEDA, and displays deployment details.
 #### Check Health Status:
-./scripts/health-check.sh demo-deployment
+./scripts/health-check.sh
+
+ demo-deployment
 
 This script monitors deployment health, shows resource usage, and displays potential issues.
 ## Scripts Overview
